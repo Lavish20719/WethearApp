@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+   background-color: rgb(33, 34, 42);
+   font-family: Arial, Helvetica, sans-serif;
+};
+
+i{
+    /* margin-top: 20px; */
+}
+
+.app{
+    background: linear-gradient(135deg ,#eb6d13,#5b548a) ;
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    color: #eee;
+    padding: 40px 35px;
+    text-align: center;
+    border-radius: 25px; 
+    
+    
+}
+
+.search{
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.search input{
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    width: 85%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    
+}
+
+
+
+
+.search i{
+    background: #fff;
+    padding: 0.5rem;
+    color: grey;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+
+.wether img{
+    height: 100px;
+    width: 100px;
+    margin-top: 1.5rem;
+}
+
+.wether h1{
+    margin-top: 1rem;
+    font-size: 3.5rem;
+}
+.wether h2{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.details{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.wether{
+    display: none;
+}
+
+.error{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+    display: none;
+}
